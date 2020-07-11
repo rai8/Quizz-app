@@ -1,0 +1,53 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: gray;
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 30px;
+    
+}
+.themes{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.theme-teal{
+    background-color:teal;
+    color: black;
+    width: 40%;
+    border-radius: 2rem;
+}
+.theme-blue{
+    background-color: lightpink;
+    color: white;
+    width: 40%;
+    border-radius: 2rem;
+}
+.btn{
+    margin-left: 38%;
+   
+}
+
+
+@media (max-width:900px){
+    .themes{
+  
+        display: grid;
+    }
+    .theme-teal{
+        
+       height: auto;
+        width: 80%;
+    }
+    .theme-blue{
+        margin-top: 10px;
+      height: auto;
+        width: 80%;
+    }
+    
+}
