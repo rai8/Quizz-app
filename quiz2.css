@@ -11,7 +11,7 @@
 }
 body{
     color: #fff;
-    background-color: #333;
+    background-color: lightseagreen;
 }
 
 h1, h2, h3, h4{
@@ -92,7 +92,7 @@ h2{
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background-color: rgb(18,93, 255);
+    background-color: whitesmoke;
     font-size: 3rem;
     min-width: 80rem;
 
@@ -105,12 +105,13 @@ h2{
 }
 .choice-prefix{
     padding: 2rem 2.5rem;
-    color:white;
+    color:black;
 
 }
 .choice-text{
     padding: 2rem;
     width: 100%;
+    color: black;
 }
 .correct{
   background: linear-gradient(32deg, rgba(11, 223,36)0%, rgb(41, 232,111)100%) 
@@ -161,7 +162,7 @@ h2{
      font-size: 1.8rem;
      border: none;
      
-     box-shadow: 0 0.1rem 1.4rem 0 rgb(18,93, 255);
+     box-shadow: 0 0.1rem 1.4rem 0 rgbwhitewhitewhitewhite(18,93, 255);
  }
  input::placeholder{
     color: #aaa;

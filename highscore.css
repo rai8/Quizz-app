@@ -1,0 +1,19 @@
+body{
+    color: whitesmoke;
+}
+#highScoresList{
+    list-style: none;
+    margin-bottom: 4rem;
+}
+#high-score{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+} 
+ul{
+    color: whitesmoke;
+    font-size: 3rem;
+}
+.btn2{
+   margin-left: 8rem;
+   align-items: center;
+}

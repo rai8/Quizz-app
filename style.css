@@ -17,13 +17,13 @@ h1{
     justify-content: space-between;
 }
 .theme-teal{
-    background-color:teal;
+    background-color:lightseagreen;
     color: black;
     width: 40%;
     border-radius: 2rem;
 }
 .theme-blue{
-    background-color: lightpink;
+    background-color: black;
     color: white;
     width: 40%;
     border-radius: 2rem;
@@ -42,12 +42,13 @@ h1{
     .theme-teal{
         
        height: auto;
-        width: 80%;
+        width: 90%;
     }
     .theme-blue{
         margin-top: 10px;
       height: auto;
-        width: 80%;
+        width: 90%;
     }
+  
     
 }

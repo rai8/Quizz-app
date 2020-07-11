@@ -17,17 +17,35 @@
 <div class="theme-teal">
     <h1 class="display-2">Choose Theme<br />
   ONE</h1>
-        <a class="btn btn-primary btn-lg" href="#" role="button">THEME 1</a>
+        <a class="btn btn-primary btn-lg" href="#" onClick=randomBlueTheme() role="button">THEME 1</a>
     </p>
 </div>
 <div class="theme-blue">
     <h1 class="display-2">Choose Theme<br />
   TWO</h1>
-        <a class="btn btn-primary btn-lg" href="#" role="button">THEME 2</a>
+        <a class="btn btn-primary btn-lg" href="#" onClick=randomBlackTheme() role="button">THEME 2</a>
     </p>
 </div>
 </div>   
 </div>
+<script>
+    let urls1=[
+        "./quiz2.html",
+        "./nature2.html"
+    ]
+    function randomBlueTheme(){
+      let url1= urls1[Math.floor(Math.random()*urls1.length)]  
+      window.location=url1
+    }
+    let urls2=[
+        "./quiz1.html",
+        "./nature1.html"
+    ]
+    function randomBlackTheme(){
+      let url2= urls2[Math.floor(Math.random()*urls2.length)]  
+      window.location=url2
+    }
+</script>
 <script src="./js/jquery.slim.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
